@@ -336,7 +336,7 @@
 //   );
 // }
 
-
+// AULA DIA 15/6 VAI NA WEB
 import React, { useState } from 'react'
 
 export default function App() {
@@ -348,8 +348,6 @@ export default function App() {
     setName(input)
     setBought(true)
   }
-
-
 
   return (
     <div>

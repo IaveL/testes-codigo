@@ -356,6 +356,7 @@ export default function App() {
       onChange={(e)=>{setInput(e.target.value)}}/>
       <button onClick={()=>{handleClick()}}>Enviar</button>
      {bought && <h1>Obrigado por comprar, {name}.</h1>}
+      <p>Só pra lembrar que a Racchel passou por aqui 💜</p>
        
     </div>
   )

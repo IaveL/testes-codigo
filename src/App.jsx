@@ -344,22 +344,23 @@ export default function App() {
   const [input, setInput] = useState()
   const [name, setName] = useState()
   const [bought, setBought] = useState(false)
-  const handleClick = () => {
-    setName(input)
-    setBought(true)
-  }
 
 
 
   return (
-    <div>
+    <>
+      <form onSubmit={(e)=>{
+        e.preventDefault()
+      setName(input)
+      setBought(true)
+       }} > 
       <h2>e-commerce T2</h2>
       <input value={input} 
       onChange={(e)=>{setInput(e.target.value)}}/>
-      <button onClick={()=>{handleClick()}}>Enviar</button>
+      <button>envit</button>
      {bought && <h1>Obrigado por comprar, {name}.</h1>}
-       
-    </div>
+     </form>
+    </>
   )
 }
 

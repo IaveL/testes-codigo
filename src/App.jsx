@@ -354,11 +354,11 @@ export default function App() {
   return (
     <div>
       <h2>e-commerce T2</h2>
-      <input value={input} 
-      onChange={(e)=>{setInput(e.target.value)}}/>
-      <button onClick={()=>{handleClick()}}>Enviar</button>
-     {bought && <h1>Obrigado por comprar, {name}.</h1>}
-       
+      <input value={input}
+        onChange={(e) => { setInput(e.target.value) }} />
+      <button onClick={() => { handleClick() }}>Enviar</button>
+      {bought && <h1>Obrigado por comprar, {name}.</h1>}
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ZoAFngyIuZY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   )
 }

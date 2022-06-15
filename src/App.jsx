@@ -351,6 +351,7 @@ export default function App() {
 
   return (
     <div>
+      <h2>e-commerce T2</h2>
       <input value={input} 
       onChange={(e)=>{setInput(e.target.value)}}/>
       <button onClick={()=>{handleClick()}}>Enviar</button>
